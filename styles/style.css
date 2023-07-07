@@ -48,6 +48,9 @@
   /* border: 2px solid grey; */
   background-image: url("/images/background.png"), 
   linear-gradient(45deg, rgb(8, 8, 8), black);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .title{
@@ -65,4 +68,17 @@ margin-bottom: 15px;;
   background-color: red;
   color: white;
   border: none;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.about-title{
+  text-align: center;
+  padding-top: 20px;
 }
